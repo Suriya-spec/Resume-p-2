@@ -16,6 +16,8 @@ const assets = [
 
 import { About } from "./About";
 
+import { SessionControls } from "../ui/SessionControls";
+
 export const Dashboard = ({ onLogout }: { onLogout: () => void }) => {
     const [activeTab, setActiveTab] = useState("overview");
 
@@ -51,11 +53,7 @@ export const Dashboard = ({ onLogout }: { onLogout: () => void }) => {
                         <p className="text-[10px] text-muted tracking-widest uppercase mb-1">Secure Session</p>
                         <p className="text-xs text-platinum/82">Verified • HNI-702</p>
                     </div>
-                    <div className="w-10 h-10 rounded-full border border-gold/30 p-[2px] cursor-pointer hover:border-gold transition-colors duration-300">
-                        <div className="w-full h-full rounded-full bg-charcoal overflow-hidden">
-                            <div className="w-full h-full bg-gradient-to-br from-gold/40 to-transparent" />
-                        </div>
-                    </div>
+                    <SessionControls onLogout={onLogout} onNavigate={setActiveTab} />
                 </div>
             </nav>
 
