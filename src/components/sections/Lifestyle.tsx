@@ -17,8 +17,8 @@ const collections = [
     {
         title: "Automotive Collection",
         items: [
-            { name: "Pagani Huayra R", status: "Curated", image: "https://images.unsplash.com/photo-1600712242805-5f7302777212?auto=format&fit=crop&q=80&w=2000" },
-            { name: "Ferrari SF90 Stradale", status: "Available", image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=2000" },
+            { name: "Pagani Huayra R", status: "Curated", image: "https://images.unsplash.com/photo-1656979094524-b10f4f6adfa1?auto=format&fit=crop&q=80&w=2000" },
+            { name: "Ferrari SF90 Stradale", status: "Available", image: "https://images.unsplash.com/photo-1675426513824-25a43c3ae0ba?auto=format&fit=crop&q=80&w=2000" },
         ],
         icon: <Car size={24} />,
     },
