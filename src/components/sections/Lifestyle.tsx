@@ -9,24 +9,24 @@ const collections = [
     {
         title: "Private Aviation",
         items: [
-            { name: "Gulfstream G700", status: "Available", image: "https://images.unsplash.com/photo-1540962351504-03099e0a754b?q=80&w=1000&auto=format&fit=crop" },
-            { name: "Bombardier Global 7500", status: "In Use", image: "https://images.unsplash.com/photo-1583609842652-675d4e6616c3?q=80&w=1000&auto=format&fit=crop" },
+            { name: "Gulfstream G700", status: "Available", image: "https://images.unsplash.com/photo-1540962351504-03099e0a754b?auto=format&fit=crop&q=80&w=2000" },
+            { name: "Bombardier Global 7500", status: "In Use", image: "https://images.unsplash.com/photo-1580674285054-bed31e145f59?auto=format&fit=crop&q=80&w=2000" },
         ],
         icon: <Plane size={24} />,
     },
     {
         title: "Automotive Collection",
         items: [
-            { name: "Pagani Huayra R", status: "Curated", image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=1000&auto=format&fit=crop" },
-            { name: "Ferrari SF90 Stradale", status: "Available", image: "https://images.unsplash.com/photo-1592198084033-aade902d1aae?q=80&w=1000&auto=format&fit=crop" },
+            { name: "Pagani Huayra R", status: "Curated", image: "https://images.unsplash.com/photo-1600712242805-5f7302777212?auto=format&fit=crop&q=80&w=2000" },
+            { name: "Ferrari SF90 Stradale", status: "Available", image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=2000" },
         ],
         icon: <Car size={24} />,
     },
     {
         title: "Global Residences",
         items: [
-            { name: "Villa Aman, Phuket", status: "Secure", image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1000&auto=format&fit=crop" },
-            { name: "Chelsea Penthouse", status: "Curated", image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1000&auto=format&fit=crop" },
+            { name: "Villa Aman, Phuket", status: "Secure", image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=2000" },
+            { name: "Chelsea Penthouse", status: "Curated", image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=2000" },
         ],
         icon: <Home size={24} />,
     },
