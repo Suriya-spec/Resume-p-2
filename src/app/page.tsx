@@ -150,7 +150,10 @@ export default function Page() {
                             animate={{ opacity: 1 }}
                             transition={{ duration: 1.5 }}
                         >
-                            <Dashboard onLogout={() => setIsAuthenticated(false)} />
+                            <Dashboard onLogout={() => {
+                                setIsAuthenticated(false);
+                                window.scrollTo({ top: 0, behavior: "instant" });
+                            }} />
                             <Lifestyle />
 
                             <footer className="py-20 text-center border-t border-white/5">
